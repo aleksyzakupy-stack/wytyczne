@@ -1,0 +1,388 @@
+{
+  "result": "PASS",
+  "documents": 241,
+  "keyword_assignments": 2044,
+  "query_cases": 32,
+  "checks": [
+    {
+      "query": "PPROM",
+      "expected": [
+        "PTG-025"
+      ],
+      "excluded": [
+        "PTG-047"
+      ],
+      "result": "PASS",
+      "matches": 1
+    },
+    {
+      "query": "FGR",
+      "expected": [
+        "PTG-029",
+        "PTG-047"
+      ],
+      "excluded": [
+        "PTG-025"
+      ],
+      "result": "PASS",
+      "matches": 2
+    },
+    {
+      "query": "ICP",
+      "expected": [
+        "PTG-008",
+        "PTG-076"
+      ],
+      "excluded": [
+        "STD-004"
+      ],
+      "result": "PASS",
+      "matches": 2
+    },
+    {
+      "query": "PAS",
+      "expected": [
+        "PTG-005"
+      ],
+      "excluded": [
+        "PTG-002"
+      ],
+      "result": "PASS",
+      "matches": 1
+    },
+    {
+      "query": "pasie",
+      "expected": [],
+      "excluded": [
+        "PTG-005"
+      ],
+      "result": "PASS",
+      "matches": 0
+    },
+    {
+      "query": "pasem",
+      "expected": [],
+      "excluded": [
+        "PTG-005"
+      ],
+      "result": "PASS",
+      "matches": 0
+    },
+    {
+      "query": "popie",
+      "expected": [],
+      "excluded": [
+        "INN-007",
+        "URO-003",
+        "URO-004"
+      ],
+      "result": "PASS",
+      "matches": 0
+    },
+    {
+      "query": "GDM",
+      "expected": [
+        "STD-004",
+        "PTG-059",
+        "PTG-078"
+      ],
+      "excluded": [
+        "PTG-008"
+      ],
+      "result": "PASS",
+      "matches": 3
+    },
+    {
+      "query": "RhD",
+      "expected": [
+        "STD-017"
+      ],
+      "excluded": [
+        "PTG-064"
+      ],
+      "result": "PASS",
+      "matches": 1
+    },
+    {
+      "query": "KTG",
+      "expected": [
+        "GIP-003",
+        "PTG-007"
+      ],
+      "excluded": [
+        "PTG-043"
+      ],
+      "result": "PASS",
+      "matches": 2
+    },
+    {
+      "query": "doksylamina",
+      "expected": [
+        "GIP-019",
+        "GIP-045"
+      ],
+      "excluded": [],
+      "result": "PASS",
+      "matches": 2
+    },
+    {
+      "query": "PCOS",
+      "expected": [
+        "INN-030",
+        "INN-035",
+        "PTG-071",
+        "STD-007"
+      ],
+      "excluded": [
+        "INN-022"
+      ],
+      "result": "PASS",
+      "matches": 4
+    },
+    {
+      "query": "POI",
+      "expected": [
+        "INN-022"
+      ],
+      "excluded": [
+        "STD-007",
+        "INN-030"
+      ],
+      "result": "PASS",
+      "matches": 1
+    },
+    {
+      "query": "SUI",
+      "expected": [
+        "URO-001",
+        "URO-002",
+        "INN-006",
+        "INN-010",
+        "PTG-097",
+        "PTG-109"
+      ],
+      "excluded": [
+        "GIP-055"
+      ],
+      "result": "PASS",
+      "matches": 6
+    },
+    {
+      "query": "WNM",
+      "expected": [
+        "URO-001",
+        "URO-002",
+        "INN-006",
+        "INN-010",
+        "PTG-097",
+        "PTG-109"
+      ],
+      "excluded": [
+        "GIP-055"
+      ],
+      "result": "PASS",
+      "matches": 6
+    },
+    {
+      "query": "OAB",
+      "expected": [
+        "GIP-055",
+        "PTG-109"
+      ],
+      "excluded": [
+        "URO-001",
+        "URO-002"
+      ],
+      "result": "PASS",
+      "matches": 2
+    },
+    {
+      "query": "POP-Q",
+      "expected": [
+        "INN-012",
+        "URO-003"
+      ],
+      "excluded": [
+        "URO-001"
+      ],
+      "result": "PASS",
+      "matches": 2
+    },
+    {
+      "query": "RIF",
+      "expected": [
+        "INN-033"
+      ],
+      "excluded": [
+        "INN-026"
+      ],
+      "result": "PASS",
+      "matches": 1
+    },
+    {
+      "query": "RPL",
+      "expected": [
+        "INN-026"
+      ],
+      "excluded": [
+        "INN-033"
+      ],
+      "result": "PASS",
+      "matches": 1
+    },
+    {
+      "query": "indukcja",
+      "expected": [
+        "GIP-015",
+        "PTG-035"
+      ],
+      "excluded": [],
+      "result": "PASS",
+      "matches": 6
+    },
+    {
+      "query": "cukrzyca w ciąży",
+      "expected": [
+        "STD-004",
+        "PTG-059",
+        "PTG-078"
+      ],
+      "excluded": [
+        "PTG-008"
+      ],
+      "result": "PASS",
+      "matches": 3
+    },
+    {
+      "query": "endometrioza",
+      "expected": [
+        "PTG-012",
+        "PTG-015",
+        "INN-028"
+      ],
+      "excluded": [
+        "ONK-001",
+        "ONK-019"
+      ],
+      "result": "PASS",
+      "matches": 5
+    },
+    {
+      "query": "rak endometrium",
+      "expected": [
+        "ONK-001",
+        "ONK-019"
+      ],
+      "excluded": [
+        "PTG-012",
+        "PTG-015",
+        "INN-028"
+      ],
+      "result": "PASS",
+      "matches": 9
+    },
+    {
+      "query": "PIPAC",
+      "expected": [
+        "ONK-011"
+      ],
+      "excluded": [
+        "ONK-010"
+      ],
+      "result": "PASS",
+      "matches": 1
+    },
+    {
+      "query": "HRD",
+      "expected": [
+        "ONK-005",
+        "ONK-007",
+        "ONK-009",
+        "ONK-014",
+        "ONK-024",
+        "ONK-025"
+      ],
+      "excluded": [
+        "ONK-015"
+      ],
+      "result": "PASS",
+      "matches": 6
+    },
+    {
+      "query": "HER2 endometrium",
+      "expected": [
+        "ONK-021",
+        "ONK-023"
+      ],
+      "excluded": [
+        "ONK-007"
+      ],
+      "result": "PASS",
+      "matches": 2
+    },
+    {
+      "query": "mrożenie tkanki jajnikowej",
+      "expected": [
+        "ONK-006"
+      ],
+      "excluded": [
+        "ONK-017"
+      ],
+      "result": "PASS",
+      "matches": 2
+    },
+    {
+      "query": "CIN w ciąży",
+      "expected": [
+        "PTG-057"
+      ],
+      "excluded": [
+        "PTG-055"
+      ],
+      "result": "PASS",
+      "matches": 1
+    },
+    {
+      "query": "nomenklatura kolposkopowa",
+      "expected": [
+        "PTG-045"
+      ],
+      "excluded": [
+        "ONK-034"
+      ],
+      "result": "PASS",
+      "matches": 1
+    },
+    {
+      "query": "konsylium rak sromu",
+      "expected": [
+        "ONK-031"
+      ],
+      "excluded": [
+        "ONK-030"
+      ],
+      "result": "PASS",
+      "matches": 1
+    },
+    {
+      "query": "ROMA HE4",
+      "expected": [
+        "PTG-066"
+      ],
+      "excluded": [
+        "ONK-023"
+      ],
+      "result": "PASS",
+      "matches": 1
+    },
+    {
+      "query": "PTG-030",
+      "expected": [
+        "PTG-032"
+      ],
+      "excluded": [],
+      "result": "PASS",
+      "matches": 1
+    }
+  ]
+}
